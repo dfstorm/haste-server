@@ -2,16 +2,9 @@
 Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
 */
 
-body {
-	background: #1d1f21!important;
-}
-
 pre code {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  color: #abb2bf;
-  background: #1d1f21;
+  display: block; padding: 0.5em;
+  background: #002b36; color: #92a0a0;
 }
 
 pre .comment,
@@ -20,7 +13,7 @@ pre .diff .header,
 pre .doctype,
 pre .lisp .string,
 pre .javadoc {
-  color: #5c6370;
+  color: #586e75;
   font-style: italic;
   display: inline-block;
   line-height: 1em;
@@ -34,7 +27,7 @@ pre .method,
 pre .addition,
 pre .css .tag,
 pre .lisp .title {
-  color: #96cbfe;
+  color: #859900;
 }
 
 pre .number,
@@ -45,7 +38,7 @@ pre .phpdoc,
 pre .tex .formula,
 pre .regexp,
 pre .hexcolor {
-  color: #a8ff60;
+  color: #2aa198;
 }
 
 pre .title,
@@ -60,7 +53,7 @@ pre .identifier,
 pre .title .keymethods,
 pre .id,
 pre .header {
-  color: #dddddd;
+  color: #268bd2;
 }
 
 pre .tag .title,
@@ -78,7 +71,7 @@ pre .constant,
 pre .class .title,
 pre .parent,
 pre .haskell .label {
-  color: #c6c5fe;
+  color: #b58900;
 }
 
 pre .preprocessor,
@@ -92,14 +85,14 @@ pre .attr_selector,
 pre .important,
 pre .subst,
 pre .cdata {
-  color: #c5c8c6;
+  color: #cb4b16;
 }
 
 pre .deletion {
-  color: #e06c75;
+  color: #dc322f;
 }
 
 pre .tex .formula,
 pre .code {
-  background: #1d1f21!important;
+  background: #073642;
 }

@@ -59,14 +59,8 @@ textarea {
 	z-index: +1000; /* watch out */
 }
 
-#box1 {
-	padding: 5px;
-	text-align: center;
-	background: #00222b;
-}
-
 #box2 {
-	background: #08323c;
+	background: #303030;
 	font-size: 0px;
 	padding: 0px 5px;
 }
@@ -112,7 +106,7 @@ textarea {
 }
 
 #box3, #messages li {
-	background: #173e48;
+	background: #444444;
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 14px;
@@ -149,6 +143,16 @@ textarea {
 #box2 .function.enabled.twitter { background-position: -153px center; }
 #box2 .function.enabled.twitter:hover { background-position: -153px bottom; }
 #box2 .button-picture{ border-width: 0; font-size: inherit; }
+
+.hastbin {
+	background: url(hb.png) no-repeat!important;
+	margin: 7px 0px 0px 4px;
+	float:right;
+}
+.hastbin:hover {
+	background: url(hb_over.png) no-repeat!important;
+}
+
 
 #messages {
 	position:fixed;
